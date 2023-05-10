@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/rtivital/react-pages-boilerplate/issues"
   },
-  "homepage": "https://pyonpyonkun.github.io/MXPR/",
+  "homepage": "https://pyonpyonkun.github.io/",
   "dependencies": {
     "buffer": "^6.0.3",
     "classnames": "^2.3.1",
