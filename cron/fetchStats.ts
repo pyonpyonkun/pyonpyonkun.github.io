@@ -9,7 +9,7 @@ const fs = syncFs.promises;
 const execPromise = util.promisify(exec);
 
 const getPlayerConnectCodes = async (): Promise<string[]> => { 
-	return ['C4D#69','LNK#691','DRM#815','FLOW#561','STEV#566','MLOG#546','XHIV#789','INCO#582','ALBU#478','CUAK#787','DIE#222','EDMX#007','FRAP#866','MART#153','HYRU#485','JOSM#616','DRZK#408','SHEI#891','YAAA#386','ZAMO#948','ZAMO#797','MELE#790','HELL#259','YU#117','ARO#384','MINR#3','ZOUL#0','LFGF#858','FAR#167','LAG#318','XHLN#234','OREO#696','VALD#536','YUNG#117','PANT#706'] };
+	return ['C4D#69','LNK#691','DRM#815','FLOW#561','STEV#566','MLOG#546','XHIV#789','INCO#582','ALBU#478','CUAK#787','DIE#222','EDMX#007','FRAP#866','MART#153','HYRU#485','JOSM#616','DRZK#408','SHEI#891','YAAA#386','ZAMO#948','ZAMO#797','MELE#790','HELL#259','YU#117','ARO#384','MINR#3','ZOUL#0','LFGF#858','FAR#167','LAG#318','XHLN#234','OREO#696','VALD#536','YUNG#117','PANT#706','CEPO#409'] };
 const getPlayers = async () => {
   const codes = await getPlayerConnectCodes()
   console.log(`Found ${codes.length} player codes`)
