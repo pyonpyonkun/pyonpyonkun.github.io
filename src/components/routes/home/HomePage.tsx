@@ -59,10 +59,12 @@ export default function HomePage() {
       <div className="p-1 text-gray-300"> Updated {updateDesc}</div>
       <Table players={players} />
       <div className="p-4 text-gray-300 flex flex-col">
-        <div>PRMX by href="https://www.facebook.com/meleeenespanol" target="_blank" rel="noreferrer"
+        <div>Built by @Meleeenespanol</div>
+        <div>
+          <a href="https://www.facebook.com/meleenespanol" target="_blank" rel="noreferrer"
              className="text-gray-400 hover:text-indigo-700 mr-2 hover:underline">
-            @meleeenespañol
-        <div>Built by blorppppp</div>
+            Melee en español
+        <div>Built by blorpppppx</div>
         <div>
           <a href="https://www.buymeacoffee.com/blorppppp" target="_blank" rel="noreferrer"
              className="text-gray-400 hover:text-indigo-700 mr-2 hover:underline">
@@ -72,4 +74,5 @@ export default function HomePage() {
       </div>
     </div>
   );
-}  
+}
+
