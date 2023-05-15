@@ -61,7 +61,7 @@ export default function HomePage() {
       <div className="p-4 text-gray-300 flex flex-col">
         <div>PRMX by href="https://www.facebook.com/meleeenespanol" target="_blank" rel="noreferrer"
              className="text-gray-400 hover:text-indigo-700 mr-2 hover:underline">
-            @meleeenespañol</div>
+            @meleeenespañol
         <div>Built by blorppppp</div>
         <div>
           <a href="https://www.buymeacoffee.com/blorppppp" target="_blank" rel="noreferrer"
