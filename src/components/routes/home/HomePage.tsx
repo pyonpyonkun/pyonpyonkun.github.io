@@ -66,10 +66,7 @@ export default function HomePage() {
             Buy me a coffee
           </a>☕
         </div>
- <a href="https://www.facebook.com/Meleeenespanol" target="_blank" rel="noreferrer"
-             className="text-gray-400 hover:text-indigo-700 mr-2 hover:underline">
-            MX PR By @Meleeenespañol
       </div>
     </div>
   );
-}
+}  
